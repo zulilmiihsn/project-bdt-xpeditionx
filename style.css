@@ -51,14 +51,19 @@ nav li a {
 }
 
 nav .login-button-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: -5px;
-    text-align: center;
     width: 70px;
     height: 30px;
     background-color: #F7C85A;
     border: solid;
     border-color: #F7C85A;
     border-radius: 6.7px;
+    text-decoration: none;
+    color: white;
 }
 
 .login-button-index:hover{
@@ -81,7 +86,7 @@ content {
 }
 
 .box-gambar {
-    background-image: url(https://s3-alpha-sig.figma.com/img/b953/25df/b120dac35bb5b4bf85f399a3899c4b3e?Expires=1687737600&Signature=OB5KEtO~uwtcFOjlkI-170MmKNr6QP4OLFnt5aUdwpcCtvrCmkk~Mu~xMBcjblJctVo9dxrpiQDTm77MAgVJseVJsvcCTBn82k2En2jaA0VHRKdXTSssPzCnolHoeOs1f1DlCHuptaCwRrYyUkcruLCWQv6gQjIvu8s-cK-RkwBr5P8n2TOa3ZJuwq9CLpabK1cxyN-ix95hEyPR~SGlUuuq8Bc7X2KCmx3J~5WjV99nng2hSP5noPCBk~8ZomHSUlnFX-zJzdvgfisOK-VLOHAqC2gzai7QvcDaqU3FNYIsUU9vU91piSzZJgarm7FBaVbmzC9CBaq5H1TCJohqNw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-image: url(img/hero-img.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 600px;
@@ -221,6 +226,19 @@ nav .bar-login-page :hover {
 .forget-password:hover {
     scale: 1.01;
     font-weight:500;
+}
+
+#login-button-login-page {
+    font-family: Roboto;
+    font-weight: 500;
+    background-color: #F7C85A;
+    margin-left: 240px;
+    margin-right: 240px;
+    height: 40px;
+    border-radius: 6.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #login-button-login-page:hover {
@@ -401,7 +419,7 @@ nav .bar-login-page :hover {
 }
 
     .container-packet-form {
-    width:80vh;
+    width:40vh;
     height: fit-content;
     padding: 15px 30px;
     margin: 12px;
@@ -768,6 +786,7 @@ content form input {
     padding-bottom: 20px;
 }
 
+
 .delivery-address .form-customer {
     line-height: 40px;
     word-spacing: 8px;
@@ -1003,3 +1022,4 @@ content form input {
 }
 
 }
+
