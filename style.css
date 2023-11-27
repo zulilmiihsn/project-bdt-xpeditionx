@@ -86,7 +86,7 @@ content {
 }
 
 .box-gambar {
-    background-image: url(img/hero-img.png);
+    background-image: url(hero-img.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 600px;
